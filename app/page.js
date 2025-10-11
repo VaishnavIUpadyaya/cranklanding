@@ -1,7 +1,7 @@
 import React from "react";
 export default function Home(){
 return(
-  <div>
+  <div className="bg-gray-200 min-h-screen dark:bg-black">
     <div className='flex flex-col  h-[700px] mx-[1px]
     bg-black rounded-[80px]'>
       <div className="items-center ml-[70px] "><div className='bg-[#25292b] h-[70px] w-[1000px]  rounded-full flex flex-row '>
@@ -32,27 +32,28 @@ return(
      </div>
     </div>
     <div className="flex flex-col  h-[700px] mx-[1px]
-    bg-white rounded-[80px]">
+    bg-white rounded-[80px] dark:bg-indigo-950 ">
 <div className="text-red-600  font-bold text-1xl mt-[160px] ml-[500px] space-x-4">
   LATEST SERVICE
 
 </div>
-<div className="text-black  font-bold text-3xl mt-[10px] ml-[350px] space-x-4">YOUR TRUSTED CAR PROVIDER</div>
-<div className="text-black  font-bold text-3xl mt-[10px] ml-[400px] space-x-4" >KEEPING YOUR VEHICLE</div>
+<div className="dark:text-white">
+<div className="text-black dark:text-white  font-bold text-3xl mt-[10px] ml-[350px] space-x-4">YOUR TRUSTED CAR PROVIDER</div>
+<div className="text-black dark:text-indigo-300 font-bold text-3xl mt-[10px] ml-[400px] space-x-4" >KEEPING YOUR VEHICLE</div>
 <div className="grid grid-cols-3 gap-4  mt-15 ml-10 mr-10  ">
  <div className="border-4 p-10 rounded-[50px] text-center hover:bg-gradient-to-bl from-blue-800 via-black to-red-600 hover:text-white"><div className="font-bold text-2xl">Transformation Advising</div> Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</div>
  <div className="border-4 p-10 rounded-[50px] text-center hover:bg-gradient-to-bl from-blue-800 via-black to-red-600 hover:text-white "><div className="font-bold text-2xl">Easy Drive Maintenance</div>Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</div>
  <div className="border-4 p-10 rounded-[50px] text-center hover:bg-gradient-to-bl from-blue-800 via-black to-red-600 hover:text-white"><div className="font-bold text-2xl ">Elite Auto Services</div>Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</div>
-</div>
+</div></div>
     </div>
-    <div className="flex flex-col  h-[700px] mx-[1px]
-    bg-dbd8d8">
+    <div className="flex flex-col  h-[620px] mx-[1px]
+    bg-black rounded-[80px] mt-10 dark:bg-indigo-950 dark:text-white">
       <div className="text-red-600  font-bold text-1xl mt-[100px] ml-[280px] space-x-4">
   ABOUT US
 
 </div>
-      <div className="text-black  font-bold text-5xl mt-[10px] ml-[280px] space-x-4">Fast and Reliable Car Care</div>
-<div className="text-black  font-bold text-5xl mt-[10px] ml-[280px] space-x-4">Your Car Our Priority</div>
+      <div className="text-black  font-bold text-5xl mt-[10px] ml-[280px] space-x-4 dark:text-indigo-200">Fast and Reliable Car Care</div>
+<div className="text-black  font-bold text-5xl mt-[10px] ml-[280px] space-x-4 dark:text-indigo-200">Your Car Our Priority</div>
 <div className="text-[20px] mt-[10px] ml-[280px]">Car service is essential for maintaining the performance and</div>
 <div className="text-[20px]  ml-[280px]">longevity of your vehicle. From oil changes</div>
 <div className="text-[20px] font-bold mt-[15px] ml-[280px]">
@@ -66,11 +67,11 @@ return(
 
 <div className="mt-[12px]">Your Trusted Car Service Provider Keeping</div>
 </div>
-
-  <div className=" relative h-[400px] ml-[300px] rounded-[50px] mt-[90px] " >
+</div>
+  <div className=" relative h-[800px] ml-[300px] rounded-[50px] mt-[90px] dark:bg-black  " >
   <img  className=" object-cover rounded-[50px]"src="https://themehealer.com/php-template/crank-php/assets/images/resources/about-one-img-1.jpg">
   </img>
-<div className="absolute bottom-1 right-60 bg-red-600 text-white p-6 rounded-2xl  ">
+<div className="absolute bottom-100 right-60 bg-red-600 text-white p-6 rounded-2xl  ">
   <div className="flex flex-col py-10 text-center ">
   <div className="font-bold text-lg "> Auto Mechanic Shop</div> 
 <div className="text-[10px]">Car service is essential for maintaining </div>
@@ -80,7 +81,7 @@ return(
 </div>
  </div>
 
-    </div>
+   
   </div>
 )
 }
