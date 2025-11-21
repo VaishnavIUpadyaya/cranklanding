@@ -13,8 +13,8 @@ return(
       <div className='font-bold text-white  mt-5 m-3  h-9 sm:mx-3 hover:underline  hidden md:block'>Shop</div>
       <div className='font-bold text-white  mt-5 m-3  h-9 sm:mx-3 hover:underline  hidden md:block'>Blog</div>
       <div className='font-bold text-white  mt-5 m-3  h-9 sm:mx-3 hover:underline hidden md:block'>Contact</div>
-      <div className="text-white mt-5 m-3  h-9 bg-gray-500  rounded-full px-4 py-2 text-sm">f</div>
-      <div className="text-white mt-5 m-3  h-9 bg-gray-500  rounded-full px-4 py-2 text-sm">X</div>
+      <div className="text-white mt-5 m-3  h-9 bg-gray-500  rounded-full px-4 py-2 text-sm hidden md:block">f</div>
+      <div className="text-white mt-5 m-3  h-9 bg-gray-500  rounded-full px-4 py-2 text-sm hidden md:block">X</div>
       
       </div></div>
       <div className="flex flex-row  mt-10">
@@ -28,8 +28,35 @@ return(
       GET STARTED
     </button>
       </div>
-       <img className="h-[400px] ml-10 rounded-[50px]"src='https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-3.jpg'/>
+       <img className=" h-[400px] ml-10 rounded-[50px]"src='https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-3.jpg'/>
      </div>
+     <div className="  bg-white  rounded-3xl flex flex-wrap justify-between items-center px-10 py-10  w-[88%] mx-[50px] mt-[10px]">
+    
+   
+    <div className="flex flex-col items-center text-center  sm:w-1/4 mb-8 sm:mb-0  ">
+      <h2 className="text-5xl font-extrabold text-black">600+</h2>
+      <p className="text-gray-600 text-lg mt-2">Team member</p>
+    </div>
+
+   
+    <div className="flex flex-col items-center text-center w-1/2 sm:w-1/4 mb-8 sm:mb-0 ">
+      <h2 className="text-5xl font-extrabold text-black">2k+</h2>
+      <p className="text-gray-600 text-lg mt-2">Service Complete</p>
+    </div>
+
+    
+    <div className="flex flex-col items-center text-center w-1/2 sm:w-1/4 mb-8 sm:mb-0">
+      <h2 className="text-5xl font-extrabold text-black">53+</h2>
+      <p className="text-gray-600 text-lg mt-2">Winning award</p>
+    </div>
+
+   
+    <div className="flex flex-col items-center text-center w-1/2 sm:w-1/4">
+      <h2 className="text-5xl font-extrabold text-black">3k+</h2>
+      <p className="text-gray-600 text-lg mt-2">Client Review</p>
+    </div>
+    
+  </div>
     </div>
     <div className="flex flex-col  h-[700px] mx-[1px]
     bg-white rounded-[80px] dark:bg-indigo-950 ">
